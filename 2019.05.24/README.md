@@ -1,7 +1,35 @@
-﻿# Repositorio curso Sistemas operativos
-## Autor: Andrés Felipe Valencia Montes - 201667639 - andres.montes@correounivalle.edu.co 
+﻿# Practica en C clase - 1
+## 
 
-Este repositorio contiene los codigos relativos a diferentes actividades
-desarrolladas  en el curso de Sistemas Operativos - Univalle 
+Se implementó un algortimo simple que imprime `hola mundo`. Posteriormente se generó y como se incluye dentro del algoritmo `basico.c`.
 
+Los programas:
+
+* [basico.c](basico.c)
+
+* [libfun.c](libfun.c)
+
+* [libfun.h](libfun.h)
+
+Para compilar el programa se llevan a cabo los siguientes pasos:
+
+
+* Generar la librería
+```
+gcc -c libfun.c -o libfun.o
+ar rcs libfun.a libfun.o
+```
+
+
+* En el paso anterior se generó el archivo `libfun.a`.Ahora enlazaremos el programa `basico.c` con la librería `libfun.a`.
+
+```
+gcc basico.c -L. -lfun -o basico
+```
+
+
+* Por ultimo para correr el programa:
+```
+./basico
+```
 
