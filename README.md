@@ -7,5 +7,5 @@ desarrolladas  en el curso de Sistemas Operativos - Univalle
 
 
 
-[2019_05_24](2019_05_24)
+[2019.05.24](2019.05.24)
 
