@@ -5,7 +5,3 @@ Este repositorio contiene los codigos relativos a diferentes actividades
 desarrolladas  en el curso de Sistemas Operativos - Univalle 
 
 
-
-
-[2019_05_24](2019_05_24)
-
