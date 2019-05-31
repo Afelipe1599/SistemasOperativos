@@ -4,8 +4,8 @@ En la clase de hoy se ejecutarán los programas que se mostraron en los videos. 
 
 los siguientes codigos de calentamiento que presenta como usasr archivos de cabecera en proyectos de programación C.
 
-*[entero.h](entero.h)
-*[principal.c](princiopal.c)
+* [entero.h](entero.h) 
+* [principal.c](princiopal.c)
 
 ## cpu.c
 
